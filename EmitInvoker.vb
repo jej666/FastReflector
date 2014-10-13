@@ -1,6 +1,5 @@
 Imports System.Reflection
 Imports System.Reflection.Emit
-Imports InfoSante.Elisagenda.Infrastructure.Common
 
 <System.ComponentModel.ImmutableObject(True)>
 Friend NotInheritable Class EmitInvoker
