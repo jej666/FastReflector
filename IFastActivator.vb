@@ -1,6 +1,3 @@
-Imports System.Collections.Generic
-Imports InfoSante.Elisagenda.Infrastructure.Common
-
 Public Interface IFastActivator
 
     ''' <summary>
@@ -10,12 +7,14 @@ Public Interface IFastActivator
     ''' The instance delegate.
     ''' </value>
     ReadOnly Property InstanceDelegate As ActivatorDelegate
+    
     ''' <summary>
     ''' Gets the create instance delegate.
     ''' </summary>
     ''' <param name="type">The type.</param>
     ''' <returns></returns>
     Function GetCreateInstanceDelegate(type As Type) As ActivatorDelegate
+    
     ''' <summary>
     ''' Creates the instance.
     ''' </summary>
