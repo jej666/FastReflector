@@ -1,5 +1,4 @@
-﻿Imports System.Collections.Generic
-Imports InfoSante.Elisagenda.Infrastructure.Common
+Imports System.Collections.Generic
 
 Friend Class FastActivator
     Implements IFastActivator
