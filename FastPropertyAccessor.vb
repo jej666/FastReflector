@@ -1,7 +1,5 @@
 Imports System.Collections.Generic
 Imports System.Reflection
-Imports Infosante.Elisagenda.Domain.Facade
-Imports InfoSante.Elisagenda.Infrastructure.Common
 
 <System.ComponentModel.ImmutableObject(True)>
 Friend Class FastPropertyAccessor
