@@ -1,6 +1,5 @@
 Imports System.Collections.Generic
 Imports System.Reflection
-Imports Infosante.Elisagenda.Infrastructure.Common
 
 Public Interface IFastPropertyAccessor
 
@@ -11,6 +10,7 @@ Public Interface IFastPropertyAccessor
     ''' The properties.
     ''' </value>
     ReadOnly Property Properties As PropertyInfo()
+    
     ''' <summary>
     ''' Gets the getter map.
     ''' </summary>
@@ -18,6 +18,7 @@ Public Interface IFastPropertyAccessor
     ''' The getter map.
     ''' </value>
     ReadOnly Property GetterMap As IDictionary(Of PropertyInfo, PropertyGetterDelegate)
+    
     ''' <summary>
     ''' Gets the setter map.
     ''' </summary>
