@@ -1,5 +1,4 @@
-﻿Imports System.Runtime.CompilerServices
-Imports InfoSante.Elisagenda.Domain.Facade
+Imports System.Runtime.CompilerServices
 
 <HideModuleName(), System.ComponentModel.ImmutableObject(True)>
 Public Module FastReflectorExtensions
