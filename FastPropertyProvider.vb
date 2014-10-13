@@ -1,7 +1,5 @@
 Imports System.Collections.Generic
 Imports System.Reflection
-Imports Infosante.Elisagenda.Domain.Facade
-Imports Infosante.Elisagenda.Infrastructure.Common
 
 <System.ComponentModel.ImmutableObject(True)>
 Public Class FastPropertyProvider
