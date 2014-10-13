@@ -1,6 +1,5 @@
-﻿Imports System.Collections.Generic
+Imports System.Collections.Generic
 Imports System.Reflection
-Imports Infosante.Elisagenda.Infrastructure.Common
 
 Public Interface IFastPropertyProvider
 
@@ -16,12 +15,14 @@ Public Interface IFastPropertyProvider
     ''' <param name="type">The type.</param>
     ''' <returns></returns>
     Function GetPropertyInfo(type As Type) As PropertyInfo()
+    
     ''' <summary>
     ''' Gets the property getter.
     ''' </summary>
     ''' <param name="type">The type.</param>
     ''' <returns></returns>
     Function GetPropertyGetter(type As Type) As IDictionary(Of PropertyInfo, PropertyGetterDelegate)
+    
     ''' <summary>
     ''' Gets the property setter.
     ''' </summary>
@@ -36,6 +37,7 @@ Public Interface IFastPropertyProvider
     ''' The item.
     ''' </value>
     Default ReadOnly Property Item(type As Type) As IFastPropertyAccessor
+    
     ''' <summary>
     ''' Gets the type cached.
     ''' </summary>
